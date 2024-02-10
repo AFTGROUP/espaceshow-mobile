@@ -64,6 +64,7 @@ flutter:
   assets:
     - assets/images/
     - assets/svg/
+    - assets/svg/otp_success.svg
     - assets/logo/
     - assets/splash.png
     - assets/onboarding_image.png
