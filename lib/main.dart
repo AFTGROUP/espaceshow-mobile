@@ -1,3 +1,4 @@
+import 'package:espaceshow/features/accueil/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:espaceshow/features/onboarding/slider_one_screen.dart';
 import 'package:espaceshow/features/onboarding/slider_two_screen.dart';
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
       routes: {
           //'/': (context) => MyHomePage(title: 'Flutter Demo Home Page'),
           '/': (context) =>SliderOne(),
+          '/home': (context) =>HomeScreen(),
           '/firstslider': (context) => SliderOne(),
           '/secondslider': (context) => SliderTwo(),
           '/thirdslider': (context) => SliderThree(),
